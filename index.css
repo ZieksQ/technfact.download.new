@@ -4,11 +4,17 @@
     box-sizing: border-box;
 }
 
+body{
+    background: #24292e;
+    color: #fff;
+}
+
 button{
-    background: #3bcfc3;
-    border-radius: 0.5px solid black;
-    width: 100px;
-    height: 20px;
+    background: #3b5ecf;
+    border-radius: 15px;
+    border-color: #ebf5f4;
+    width: 130px;
+    height: 30px;
 }
 
 .dllink{
@@ -16,9 +22,13 @@ button{
     text-decoration: none;
 }
 
+.report{
+    color: #4946f0;
+}
 
-button:focus{
-    background: #ad3bcf;
+
+button:hover{
+    background: #8f2bad;
 }
 
 .violet{
